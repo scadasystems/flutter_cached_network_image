@@ -16,9 +16,13 @@ environment:
 
 dependencies:
   cached_network_image_platform_interface:
-    path: ./../cached_network_image_platform_interface
+    git:
+      url: https://github.com/scadasystems/flutter_cached_network_image.git
+      path: cached_network_image_platform_interface
   cached_network_image_web:
-    path: ./../cached_network_image_web
+    git:
+      url: https://github.com/scadasystems/flutter_cached_network_image.git
+      path: cached_network_image_web
   flutter:
     sdk: flutter
 
