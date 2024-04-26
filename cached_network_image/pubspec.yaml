@@ -1,5 +1,6 @@
 name: cached_network_image
 description: Flutter library to load and cache network images.
+  Can also be used with placeholder and error widgets.
 homepage: https://github.com/scadasystems/flutter_cached_network_image
 publish_to: "none"
 
@@ -15,19 +16,11 @@ environment:
   flutter: '>=3.10.0'
 
 dependencies:
-  cached_network_image_platform_interface:
-    git:
-      url: https://github.com/scadasystems/flutter_cached_network_image.git
-      path: cached_network_image_platform_interface
-  cached_network_image_web:
-    git:
-      url: https://github.com/scadasystems/flutter_cached_network_image.git
-      path: cached_network_image_web
+  cached_network_image_platform_interface: ^4.0.0
+  cached_network_image_web: ^1.2.0
   flutter:
     sdk: flutter
-
   flutter_cache_manager: ^3.3.1
-
   octo_image: ^2.0.0
 
 dev_dependencies:
